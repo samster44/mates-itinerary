@@ -213,3 +213,6 @@ a.chip:hover { border-color: var(--muted); }
 .card h3 { margin-top: 2px; }
 .num.home-num { background: #fff; font-size: 15px; }
 .num.none { width: 10px; height: 10px; margin: 10px; background: var(--c); opacity: .6; }
+
+/* Dark map: invert the light OSM tiles (markers live in a separate pane, so they're unaffected). */
+.leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.9) contrast(.9) saturate(.5); }
