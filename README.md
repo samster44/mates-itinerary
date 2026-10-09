@@ -7,3 +7,5 @@ A tiny static site with the weekend itinerary and a map of every stop.
 - **Host it (free):** GitHub → repo **Settings → Pages** → *Deploy from a branch* → pick the branch and `/ (root)`. Share the URL it gives you.
 
 Map: Leaflet + OpenStreetMap/CARTO tiles. No build step, no API keys.
+
+**After editing:** bump the `?v=` number on the `styles.css`, `data.js` and `app.js` links in `index.html` so phones don't keep showing a cached copy.
