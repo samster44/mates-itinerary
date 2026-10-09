@@ -122,7 +122,7 @@
   function badge(e) {
     if (e.atBase) return '<div class="num home-num">🏠</div>';
     if (e.num) return `<div class="num">${e.num}</div>`;
-    return '<div class="num tbc">?</div>';
+    return '<div class="num none"></div>';
   }
 
   function card(e, color) {

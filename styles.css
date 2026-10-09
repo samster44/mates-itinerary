@@ -212,4 +212,4 @@ a.chip:hover { border-color: var(--muted); }
 .cost { font-size: 12px; font-weight: 700; color: #0f1115; background: var(--c); padding: 1px 7px; border-radius: 999px; }
 .card h3 { margin-top: 2px; }
 .num.home-num { background: #fff; font-size: 15px; }
-.num.tbc { background: transparent; border: 2px dashed var(--c); color: var(--c); }
+.num.none { width: 10px; height: 10px; margin: 10px; background: var(--c); opacity: .6; }

@@ -58,7 +58,6 @@ window.TRIP = {
           time: "Morning",
           title: "More arrivals + golf",
           emoji: "⛳",
-          notes: "Venue TBC.",
         },
         {
           time: "Afternoon",
@@ -147,7 +146,7 @@ window.TRIP = {
           time: "Afternoon",
           title: "Carvery somewhere",
           emoji: "🥩",
-          notes: "🥕 Venue TBC.",
+          notes: "🥕",
         },
         {
           time: "Eve",
