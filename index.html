@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Harry's Bristol Weekend</title>
+  <meta name="description" content="Itinerary and map for Harry's birthday weekend in Bristol.">
+  <meta name="theme-color" content="#0f1115">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍻</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow" id="subtitle"></p>
+      <h1 id="title"></h1>
+      <p class="countdown" id="countdown"></p>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs" aria-label="Days"></nav>
+
+  <main class="layout">
+    <section class="list" id="list" aria-live="polite"></section>
+    <section class="map-wrap">
+      <div id="map" role="region" aria-label="Map of places"></div>
+    </section>
+  </main>
+
+  <footer class="foot">Happy birthday Harry 🎂</footer>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
