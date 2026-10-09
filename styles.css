@@ -10,6 +10,7 @@
   --day-1: #4ac7ff;
   --day-2: #b98bff;
   --day-3: #5ee08a;
+  --day-4: #ffc94a;
   --radius: 14px;
 }
 
@@ -194,3 +195,21 @@ h1 {
 .leaflet-container a.leaflet-popup-close-button { color: var(--muted); }
 
 .foot { text-align: center; color: var(--muted); padding: 24px 16px 40px; font-size: 14px; }
+
+/* ---------- Real-plan additions ---------- */
+.intro { margin: 0 0 10px; max-width: 640px; color: var(--text); opacity: .85; line-height: 1.45; }
+.countdown { font-weight: 600; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.chip {
+  font-size: 13px; color: var(--text); text-decoration: none;
+  padding: 6px 10px; border-radius: 999px;
+  background: rgba(255,255,255,.06); border: 1px solid var(--line);
+}
+.chip b { color: var(--accent); }
+a.chip:hover { border-color: var(--muted); }
+.day-head h2 em { font-style: normal; font-size: 13px; font-weight: 500; color: var(--muted); margin-left: 6px; }
+.time { text-transform: uppercase; font-size: 12px; letter-spacing: .08em; }
+.cost { font-size: 12px; font-weight: 700; color: #0f1115; background: var(--c); padding: 1px 7px; border-radius: 999px; }
+.card h3 { margin-top: 2px; }
+.num.home-num { background: #fff; font-size: 15px; }
+.num.tbc { background: transparent; border: 2px dashed var(--c); color: var(--c); }
